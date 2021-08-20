@@ -1,0 +1,288 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lavender;
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    border: 5px rgb(147, 240, 8);
+    border-style: inset;
+}
+
+.container1 {
+    margin: 10px;
+    padding: 0px;
+    border: 5px rgb(5, 90, 5);
+    border-style: inset;
+}
+
+.first {
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid red;
+    border-radius: 20px;
+    width: 216px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-style: oblique;
+}
+
+.mid {
+    display: flex;
+    border: 5px solid red;
+    border-radius: 50px;
+    width: 500px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-style: oblique;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid red;
+    border-radius: 20px;
+    width: 216px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    font-style: oblique;
+}
+
+.nav {
+    padding: 2px;
+}
+
+.details {
+    padding: 2px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.idetails {
+    margin: 10px;
+}
+
+.second {
+    display: flex;
+    margin-left: 150px;
+}
+
+.circle {
+    top: 200px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(43 213 194);
+    border: 5px solid grey;
+    border-radius: 50%;
+    text-align: center;
+    padding: 30px;
+    margin: 5px;
+    margin-top: 250px;
+    margin-left: 100px;
+    text-decoration: underline;
+    font-style: oblique;
+    font-weight: 900;
+}
+
+.circle.c1 {
+    margin: 15px;
+    padding: 15px;
+}
+
+.form {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+    border: 5px dashed red;
+    justify-content: center;
+    align-items: center;
+    height: 620px
+}
+
+.form input {
+    align-items: center;
+    margin: 10px;
+}
+
+.form h1 {
+    color: rgb(255, 117, 117);
+    font-weight: bold;
+    margin: 10px;
+    padding: 12px;
+}
+
+.form label {
+    color: rgb(255, 117, 117);
+    margin: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.form button {
+    margin: 10px;
+    padding: 2px;
+    background-color: rgba(8, 8, 8, 0.199);
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.form button:hover {
+    color: white;
+    background-color: black;
+}
+
+.third {
+    display: flex;
+    border: 5px solid red;
+    border-radius: 50px;
+    width: 500px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-style: oblique;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.fourth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first1 {
+    margin: 50px;
+    height: 250px;
+    width: 250px;
+    border: 3px solid green;
+    border-radius: 30px;
+    background-color: cyan;
+}
+
+.first1 h1 {
+    color: purple;
+}
+
+.first1 ul li {
+    color: purple;
+}
+
+.second1 {
+    margin: 50px;
+    height: 250px;
+    width: 250px;
+    border: 3px solid green;
+    border-radius: 30px;
+    background-color: cyan;
+}
+
+.second1 h1 {
+    color: purple;
+}
+
+.second1 ul li {
+    color: purple;
+}
+
+.third1 {
+    margin: 50px;
+    height: 250px;
+    width: 250px;
+    border: 3px solid green;
+    border-radius: 30px;
+    background-color: cyan;
+}
+
+.third1 h1 {
+    color: purple;
+}
+
+.third1 ul li {
+    color: purple;
+}
+
+.fifth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first2 {
+    margin: 50px;
+    height: 250px;
+    width: 250px;
+    border: 3px solid green;
+    border-radius: 30px;
+    background-color: cyan;
+}
+
+.first2 h1 {
+    color: purple;
+}
+
+.first2 ul li {
+    color: purple;
+}
+
+.second2 {
+    margin: 50px;
+    height: 250px;
+    width: 250px;
+    border: 3px solid green;
+    border-radius: 30px;
+    background-color: cyan;
+}
+
+.second2 h1 {
+    color: purple;
+}
+
+.second2 ul li {
+    color: purple;
+}
+
+.third2 {
+    margin: 50px;
+    height: 280px;
+    width: 250px;
+    border: 3px solid green;
+    border-radius: 30px;
+    background-color: cyan;
+}
+
+.third2 h1 {
+    color: purple;
+}
+
+.third2 ul li {
+    color: purple;
+}
